@@ -8,9 +8,6 @@ const asyncHandler = (requestHandler)=>{
 export {asyncHandler}
 
 
- 
-
-
 /* SECOND APPROACH  
 const asyncHandler = (fn)=> async (req, res, next) => {
     try {
